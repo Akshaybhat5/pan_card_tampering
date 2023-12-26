@@ -1,0 +1,11 @@
+prefix=/home/ash/Desktop/sample_data/venv
+exec_prefix=/home/ash/Desktop/sample_data/venv
+libdir=/home/ash/Desktop/sample_data/venv/lib
+includedir=/home/ash/Desktop/sample_data/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

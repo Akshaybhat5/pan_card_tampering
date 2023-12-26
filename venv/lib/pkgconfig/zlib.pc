@@ -1,0 +1,13 @@
+prefix=/home/ash/Desktop/sample_data/venv
+exec_prefix=/home/ash/Desktop/sample_data/venv
+libdir=/home/ash/Desktop/sample_data/venv/lib
+sharedlibdir=/home/ash/Desktop/sample_data/venv/lib
+includedir=/home/ash/Desktop/sample_data/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
